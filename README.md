@@ -47,6 +47,7 @@
 
 3. Create `model/pretrained_checkpoints` directory and download [BEiT pre-trained checkpoints](https://github.com/microsoft/unilm/tree/master/beit) to the directory.
   * We used `beit_base_patch16_224_pt22k` checkpoint for our experiment.
+  * We also provided the pre-trained model trained on the AnimalKingdom dataset that can be used to run the configs/demo.yaml (https://drive.google.com/file/d/1HmSMn1h4rY5JtEjS7Th8iPTJhFbAnW9x/view?usp=sharing)
 
 ## Usage
 
