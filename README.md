@@ -4,12 +4,6 @@
 
 # A Unified Animal Perception Model via Few-shot Learning
 
-#UniAP: Towards Universal Animal Perception in Vision via Few-shot Learning
-
-This repository contains official code for [UniAP: Towards Universal Animal Perception in Vision via Few-shot Learning].
-
-![image-UniAP](https://github.com/)
-
 ## Setup
 1. Download Datasets
   * Animal Kingdom Dataset (pose estimation) from the official GitHub page https://github.com/sutdcv/Animal-Kingdom/blob/master/Animal_Kingdom/pose_estimation/README_pose_estimation.md.
