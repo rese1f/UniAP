@@ -1,0 +1,35 @@
+# environment settings
+seed: 0
+precision: bf16
+strategy: ddp
+n_gpus: [7]
+
+# model arguments
+model: UniAP
+image_backbone: beit_base_patch16_224_in22k
+label_backbone: vit_base_patch16_224
+image_encoder_weights: imagenet
+drop_rate: 0.
+drop_path_rate: 0.1
+attn_drop_rate: 0.
+n_attn_heads: 4
+semseg_threshold: 0.2
+channel_idx: -1
+n_levels: 4
+bitfit: True
+
+# logging arguments
+log_dir: TEST
+save_dir: FINETUNE
+load_dir: TRAIN
+log_iter: 100
+val_iter: 20000
+save_iter: 20000
+load_step: 0
+
+stage: 2
+task_fold: 0
+task: keypoints2d
+task_id: 0
+exp_name: crop_hybrid_unify_ak_val
+save_postfix: ''
