@@ -1,0 +1,17 @@
+*__pycache__*
+experiments*
+experiments_copy*
+experiments_split1*
+experiments_v0*
+model/pretrained_checkpoints*
+support_data.pth
+data_paths.yaml
+*ipynb*
+assets/
+configs/
+vis_masks.py
+vis_heatmaps.py
+apt36k.py
+data_hybrid.py
+dataset_process.py
+data/
