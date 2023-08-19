@@ -69,19 +69,10 @@ python main.py --stage 2 --task [kp/mask/cls]
 ```
 * If you want to evaluate on the specific task, please follow `task=kp`: pose estimation, `task=mask`: semantic segmentation, `task=cls`: classification.
 
-## References
+## Acknowledgements
 Our code refers the following repositores:
 * [BEiT: BERT Pre-Training of Image Transformers](https://github.com/microsoft/unilm/tree/master/beit)
 * [Pose for Everything: Towards Category-Agnostic Pose Estimation](https://github.com/luminxu/Pose-for-Everything)
 * [Images Speak in Images: A Generalist Painter for In-Context Visual Learning](https://github.com/baaivision/Painter)
 * [Segment Anything](https://github.com/facebookresearch/segment-anything)
 * [Contrastive Language-Image Pre-Training](https://github.com/openai/CLIP)
-
-## Citation
-If you find this work useful, please consider citing:
-```bib
-@inproceedings{,
-}
-```
-
-## Acknowledgements
