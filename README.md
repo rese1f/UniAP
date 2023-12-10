@@ -1,6 +1,6 @@
 <img src="assets/uniap_logo.png" height="120px" align="right">
 
-# UniAP: Towards Universal Animal Perception in Vision via Few-shot Learning
+# UniAP
 
 [![](http://img.shields.io/badge/cs.CV-arXiv%3A2308.09953-B31B1B.svg)](https://arxiv.org/abs/2308.09953)
 
