@@ -1,8 +1,21 @@
-<p align="center" width="100%">
-<a target="_blank"><img src="assets/logo.png" alt="logo" style="width: 80%; min-width: 200px; display: block; margin: auto;"></a>
-</p>
+<img src="assets/logo.png" height="120px" align="right">
 
 # A Unified Animal Perception Model via Few-shot Learning
+
+[![](http://img.shields.io/badge/cs.CV-arXiv%3A2308.09953-B31B1B.svg)](https://arxiv.org/abs/2308.09953)
+
+> **UniAP: Towards Universal Animal Perception in Vision via Few-shot Learning**  
+> Meiqi Sun*, Zhonghan Zhao*, Wenhao Chai*, Hanjun Luo, Shidong Cao, Yanting Zhang, Jenq-Neng Hwang, Gaoang Wang   
+> _AAAI 2024_  
+
+We introduce UniAP, a novel Universal Animal Perception model that leverages few-shot learning to enable cross-species perception among various visual tasks.
+
+## :fire: News
+* **[2023.12.10]**: 🎉 Our paper is accepted by AAAI 2024.
+* **[2023.08.20]** : We release our code.
+* **[2023.08.19]** :page_with_curl: We release the [paper](https://arxiv.org/abs/https://arxiv.org/abs/2308.09953).
+
+<h3 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h3>
 
 ## Setup
 1. Download Datasets
@@ -77,3 +90,16 @@ Our code refers the following repositores:
 * [Images Speak in Images: A Generalist Painter for In-Context Visual Learning](https://github.com/baaivision/Painter)
 * [Segment Anything](https://github.com/facebookresearch/segment-anything)
 * [Contrastive Language-Image Pre-Training](https://github.com/openai/CLIP)
+
+## Citation
+
+If you find STEVE useful for your your research and applications, please cite using this BibTeX:
+
+```bibtex
+@article{sun2023uniap,
+  title={UniAP: Towards Universal Animal Perception in Vision via Few-shot Learning},
+  author={Sun, Meiqi and Zhao, Zhonghan and Chai, Wenhao and Luo, Hanjun and Cao, Shidong and Zhang, Yanting and Hwang, Jenq-Neng and Wang, Gaoang},
+  journal={arXiv preprint arXiv:2308.09953},
+  year={2023}
+}
+```
